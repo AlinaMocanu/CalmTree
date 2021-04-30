@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">CalmTree</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="check_your_email_we_ve_sent_you_a_link_to_reset_your_password">Check your email, we\'ve sent you a link to reset your password :)</string>
+    <string name="title_activity_main">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_breathe">Breathing Exercises</string>
+    <string name="menu_sleep">Sleep</string>
+    <string name="menu_thought">Penny for your thoughts?</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="reset_password">Reset password</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign in</string>
+    <string name="feelings_thoughts_behaviours">Feelings-Thoughts-Behaviours</string>
+    <string name="event_thoughts_emotions">Event-Thoughts-Emotions</string>
+    <string name="thought_tracker">Thought Tracker</string>
+    <string name="title_activity_new_handout">NewHandoutActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_new_handout2">NewHandoutActivity2</string>
+    <string name="title_activity_new_handout3">NewHandoutActivity3</string>
+    <string name="mel_phobia">“What is it, Mommy?” Mel’s daughter asks as she feels her mom’s hand tense around her own.\nThe young girl can sense something’s wrong.\n\n“It’s okay, sweetheart,” Mel replies, trying to sound casual. “Let’s just cross the street.”\n\nWhat she doesn’t tell her four-year-old daughter is that she desperately wants to avoid the dog she spotted farther down the sidewalk. Ever since she was chased by a big dog that got out of its yard, Mel has been terrified that dogs will attack her. Although she wasn’t hurt, she’s certain she would have been if the owner hadn’t called off his dog. Now, when she sees a dog, her heart pounds, she breaks into a sweat, and she avoids them if possible. </string>
+    <string name="explain_mel_s_phobia">All the elements of a CBT framework are here. First, Mel believes that dogs
+are extremely dangerous.\nSecond, she avoids dogs. By avoiding them she gets some relief from her fear.
+In some sense, her avoidance is working, at least in the short term. Unfortunately,
+it also makes her more likely to run from dogs in the future.
+By avoiding dogs, Mel never gets to learn what would actually happen if she
+approached one. Therefore, her avoidance behavior reinforces her belief that
+dogs are dangerous.\nTo complete the loop, her fear affects her behavior, compelling her to avoid
+dogs. The fear she feels also strengthens her belief that dogs are dangerous—
+“Why else would I be so afraid of them?”</string>
+    <string name="mel_s_phobia">Mel\'s Phobia</string>
+    <string name = "neils_story_of_unemployment">From the moment Neil was fired and told to collect his things, he’d done everything right: He’d attended the outplacement service his firm paid for, he’d busied himself
+with networking and job applications—he’d made his employment search a full-time job. He was determined to treat being fired as an opportunity to find something better.
+Still, nobody hired him, even though several interviews had gone well. As his unemployment dragged on, Neil’s enthusiasm began to flag:"Why would anyone hire me? I see all these recent college grads, and they’re my daughter’s age, and we’re interviewing for the same jobs. What hope does a gray-haired guy with bifocals have against these kids?”</string>
+<string name = "neils_revelation">As Neil got to know his thoughts better, he recognized a familiar “cast of characters.” Most of his disturbing thoughts were about his “hopeless” future, which
+he believed was a result of his old age and “obsolescence,” which he took to
+mean he wouldn’t be able to provide for his family, which he thought made him
+a worthless human being.\nAs you record your own thoughts and emotions, chances
+are you’ll begin to notice recurring themes. It’s like our mind is a jukebox and only
+has a few “hits” to play over and over when a triggering event “pushes the button.”</string>
+    <string name = "neils_thoughts">Neil\'s Destructive Thoughts</string>
+    <string name = "alexthoughts"> Afer a talk Alex once gave as part of a job
+        interview, she was certain her audience had been bored and severely underwhelmed. “I blew it,” she thought as she walked home. When she got home, there was an
+        e-mail in her inbox offering her the job. We all make errors in our thinking. Fortunately we can think about our own
+        thinking and recognize when our thoughts do and don’t make sense. \n Consider all the ways thinking is helpful to us. We can plan for the future, consider our past actions, evaluate others’ motives, savor our favorite memories, and so forth. When our thoughts are a good enough fit with reality, they serve us well. Some of the thoughts you record may be accurate, and therefore helpful. Our minds can also create thoughts that do not accurately reflect reality:
+        \n • We make predictions that are wrong.
+        \n • We misunderstand someone’s intent.
+        \n • We misread a situation</string>
+
+    <string name="alexrevelation">Notice that the goal of the following exercise is not  to “think happy thoughts” to neutralize negative ones. The goal is to take a hard, clear-eyed look at your situation and your thinking about it and to make an accurate judgment.</string>
+    <string name="alex_s_unhelpful_thoughts">Alex\'s Unhelpful Thoughts</string>
+
+</resources>

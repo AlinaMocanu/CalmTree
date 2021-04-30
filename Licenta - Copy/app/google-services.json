@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "424303764835",
+    "firebase_url": "https://calmtree-73a39-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "calmtree-73a39",
+    "storage_bucket": "calmtree-73a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424303764835:android:67c7cd0cf4bf1c89ef5f56",
+        "android_client_info": {
+          "package_name": "com.example.calmtree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424303764835-96mprkimt62hrvvbio8k9c5kpbbb7lv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calmtree",
+            "certificate_hash": "f1c9211faff30828e7116a73687936883e50db44"
+          }
+        },
+        {
+          "client_id": "424303764835-q9aat2d1kirj91317ja8khl5ji61l5pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuVUCaL0LE3DtJ8oV0vVBafpCSeaKvbL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424303764835-q9aat2d1kirj91317ja8khl5ji61l5pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
