@@ -53,17 +53,17 @@ dogs are dangerous.\nTo complete the loop, her fear affects her behavior, compel
 dogs. The fear she feels also strengthens her belief that dogs are dangerous—
 “Why else would I be so afraid of them?”</string>
     <string name="mel_s_phobia">Mel\'s Phobia</string>
-    <string name = "neils_story_of_unemployment">From the moment Neil was fired and told to collect his things, he’d done everything right: He’d attended the outplacement service his firm paid for, he’d busied himself
+    <string name="neils_story_of_unemployment">From the moment Neil was fired and told to collect his things, he’d done everything right: He’d attended the outplacement service his firm paid for, he’d busied himself
 with networking and job applications—he’d made his employment search a full-time job. He was determined to treat being fired as an opportunity to find something better.
 Still, nobody hired him, even though several interviews had gone well. As his unemployment dragged on, Neil’s enthusiasm began to flag:"Why would anyone hire me? I see all these recent college grads, and they’re my daughter’s age, and we’re interviewing for the same jobs. What hope does a gray-haired guy with bifocals have against these kids?”</string>
-<string name = "neils_revelation">As Neil got to know his thoughts better, he recognized a familiar “cast of characters.” Most of his disturbing thoughts were about his “hopeless” future, which
+    <string name="neils_revelation">As Neil got to know his thoughts better, he recognized a familiar “cast of characters.” Most of his disturbing thoughts were about his “hopeless” future, which
 he believed was a result of his old age and “obsolescence,” which he took to
 mean he wouldn’t be able to provide for his family, which he thought made him
 a worthless human being.\nAs you record your own thoughts and emotions, chances
 are you’ll begin to notice recurring themes. It’s like our mind is a jukebox and only
 has a few “hits” to play over and over when a triggering event “pushes the button.”</string>
-    <string name = "neils_thoughts">Neil\'s Destructive Thoughts</string>
-    <string name = "alexthoughts"> Afer a talk Alex once gave as part of a job
+    <string name="neils_thoughts">Neil\'s Destructive Thoughts</string>
+    <string name="alexthoughts"> Afer a talk Alex once gave as part of a job
         interview, she was certain her audience had been bored and severely underwhelmed. “I blew it,” she thought as she walked home. When she got home, there was an
         e-mail in her inbox offering her the job. We all make errors in our thinking. Fortunately we can think about our own
         thinking and recognize when our thoughts do and don’t make sense. \n Consider all the ways thinking is helpful to us. We can plan for the future, consider our past actions, evaluate others’ motives, savor our favorite memories, and so forth. When our thoughts are a good enough fit with reality, they serve us well. Some of the thoughts you record may be accurate, and therefore helpful. Our minds can also create thoughts that do not accurately reflect reality:
@@ -73,5 +73,15 @@ has a few “hits” to play over and over when a triggering event “pushes the
 
     <string name="alexrevelation">Notice that the goal of the following exercise is not  to “think happy thoughts” to neutralize negative ones. The goal is to take a hard, clear-eyed look at your situation and your thinking about it and to make an accurate judgment.</string>
     <string name="alex_s_unhelpful_thoughts">Alex\'s Unhelpful Thoughts</string>
+    <string name="indication">Think of a recent situation where you felt a strong emotion, perhaps anxiety or sadness write down the feelings you had, the thoughts you can remember having, and what you did.</string>
+    <string name="what_i_felt">What I felt:</string>
+    <string name="what_i_thought">What I thought:</string>
+    <string name="what_i_did">What I did:</string>
+    <string name="explain">Think of a time when something happened in your own life that led you to feeling down or depressed. What thoughts went through your mind? Use the diagram below to illustrate this example:</string>
+    <string name="choose_thought">Let’s work through your own recorded thoughts. First, choose the event you found most upsetting. Using the form on the following page, record the evidence that supports your thought. Is there any evidence against your thought, suggesting it might not tell the whole story?</string>
+    <string name="evidence_for_my_thought">Evidence for my thought:</string>
+    <string name="evidence_against_my_thoguht">Evidence against my thought:</string>
+    <string name="question1">Based on the evidence that you reviewed, how accurate is the thought you had?</string>
+    <string name="question2">Based on the evidence that you reviewed, how accurate is the thought you had?</string>
 
 </resources>

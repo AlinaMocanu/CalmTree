@@ -14,6 +14,26 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
 
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_anchor="@+id/toolbar"
+            app:layout_anchorGravity="center"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="80dp"
+                android:text="@string/alex_s_unhelpful_thoughts"
+                android:textSize="20dp"
+                app:layout_anchorGravity="top|center" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_new_handout3"/>
@@ -27,23 +47,6 @@
         app:backgroundTint="@color/darkPink"
         app:srcCompat="@drawable/plus_sign_transp" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:layout_anchor="@+id/toolbar"
-        app:layout_anchorGravity="center"
-        app:popupTheme="@style/AppTheme.PopupOverlay">
 
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="80dp"
-            android:text="@string/alex_s_unhelpful_thoughts"
-            android:textSize="20dp"
-            app:layout_anchorGravity="top|center" />
-
-    </androidx.appcompat.widget.Toolbar>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -22,10 +22,9 @@ public class NewHandoutActivity3 extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FirstFragment fragment = new FirstFragment();
-                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.fragment_container3, fragment);
-                transaction.commit();
+                Intent intent = new Intent(NewHandoutActivity3.this, NewHandout3.class);
+                startActivity(intent);
+                finish();
             }
         });
     }

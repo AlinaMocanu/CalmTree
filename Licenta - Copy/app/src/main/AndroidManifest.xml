@@ -9,11 +9,13 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.thought.NewHandout"></activity>
+        <activity android:name=".ui.thought.NewHandout3"></activity>
+        <activity android:name=".ui.thought.NewHandout2" />
+        <activity android:name=".ui.thought.NewHandout" />
         <activity
             android:name=".ui.thought.NewHandoutActivity3"
             android:label="@string/title_activity_new_handout3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ui.thought.NewHandoutActivity2"
             android:label="@string/title_activity_new_handout2"
@@ -29,15 +31,15 @@
         <activity
             android:name=".ui.thought.FirstFragment"
             android:label="@string/title_activity_new_handout3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ui.thought.First2Fragment"
             android:label="@string/title_activity_new_handout3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ui.thought.First3Fragment"
             android:label="@string/title_activity_new_handout3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".SignupActivity" />
         <activity

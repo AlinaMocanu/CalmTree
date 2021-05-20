@@ -26,10 +26,9 @@ public class NewHandoutActivity2 extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FirstFragment fragment = new FirstFragment();
-                FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.replace(R.id.fragment_container2, fragment);
-                transaction.commit();
+                Intent intent = new Intent(NewHandoutActivity2.this, NewHandout2.class);
+                startActivity(intent);
+                finish();
 
 
             }
