@@ -7,6 +7,11 @@ import android.view.Menu;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.salesforce.android.chat.core.ChatConfiguration;
+import com.salesforce.android.chat.ui.ChatUI;
+import com.salesforce.android.chat.ui.ChatUIClient;
+import com.salesforce.android.chat.ui.ChatUIConfiguration;
+import com.salesforce.android.service.common.utilities.control.Async;
 
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -16,9 +21,20 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
+
+    public static final String ORG_ID = "00D09000004W0gE";
+    public static final String DEPLOYMENT_ID = "572090000011Ew2";
+    public static final String BUTTON_ID = "573090000011F7W";
+    public static final String LIVE_AGENT_POD = "d.la3-c2-fra.salesforceliveagent.com";
+
+    ChatConfiguration chatConfiguration =
+            new ChatConfiguration.Builder(ORG_ID, BUTTON_ID,
+                    DEPLOYMENT_ID, LIVE_AGENT_POD)
+                    .build();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +46,19 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                // Configure a chat UI object
+               ChatUI.configure(ChatUIConfiguration.create(chatConfiguration))
+                        .createClient(getApplicationContext())
+                        .onResult(new Async.ResultHandler<ChatUIClient>() {
+                            @Override
+                            public void handleResult (Async<?> operation,
+                                                      ChatUIClient chatUIClient) {
+
+                                // Once configured, let’s start a chat session
+                                chatUIClient.startChatSession(MainActivity.this);
+                            }
+                        });
+
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
