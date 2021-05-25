@@ -83,5 +83,6 @@ has a few “hits” to play over and over when a triggering event “pushes the
     <string name="evidence_against_my_thoguht">Evidence against my thought:</string>
     <string name="question1">Based on the evidence that you reviewed, how accurate is the thought you had?</string>
     <string name="question2">Based on the evidence that you reviewed, how accurate is the thought you had?</string>
+    <string name="see_all_handouts">See all handouts</string>
 
 </resources>

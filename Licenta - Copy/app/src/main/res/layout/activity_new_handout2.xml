@@ -44,5 +44,14 @@
         app:backgroundTint="@color/darkPink"
         app:srcCompat="@drawable/plus_sign_transp" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/button"
+        android:text="@string/see_all_handouts" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
