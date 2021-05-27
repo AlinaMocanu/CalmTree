@@ -14,6 +14,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 
 import com.example.calmtree.R;
 
@@ -30,6 +31,17 @@ public class NewHandoutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(NewHandoutActivity.this, NewHandout.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
+
+        Button seeAllHandouts = findViewById(R.id.button3);
+        seeAllHandouts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(NewHandoutActivity.this, AllHandouts.class);
                 startActivity(intent);
                 finish();
 

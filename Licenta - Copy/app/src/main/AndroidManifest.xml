@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.calmtree">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -9,7 +12,22 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.thought.NewHandout3"></activity>
+        <activity android:name=".ui.thought.SavedHandout3"></activity>
+        <activity android:name=".ui.thought.SavedHandout2" />
+        <activity android:name=".ui.thought.SavedHandout" />
+        <activity
+            android:name=".ui.thought.AllHandouts3"
+            android:label="@string/title_activity_all_handouts3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.thought.AllHandouts2"
+            android:label="@string/title_activity_all_handouts2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.thought.AllHandouts"
+            android:label="@string/title_activity_all_handouts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ui.thought.NewHandout3" />
         <activity android:name=".ui.thought.NewHandout2" />
         <activity android:name=".ui.thought.NewHandout" />
         <activity
@@ -53,7 +71,5 @@
             </intent-filter>
         </activity>
     </application>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
 </manifest>

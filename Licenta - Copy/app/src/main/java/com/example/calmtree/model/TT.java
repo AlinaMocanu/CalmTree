@@ -1,9 +1,22 @@
 package com.example.calmtree.model;
 
-public class TT {
+import java.io.Serializable;
+
+public class TT implements Serializable {
     private String evidenceForMyThought;
     private String evidenceAgainstThought;
     private String accuracyOfThought;
+    private String title;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+
 
 
     public String getEvidenceForMyThought() {

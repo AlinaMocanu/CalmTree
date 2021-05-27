@@ -1,10 +1,21 @@
 package com.example.calmtree.model;
 
-public class ETE {
+import java.io.Serializable;
+
+public class ETE implements Serializable {
 
     private String thoughts;
-    private String events;
-    private String emotions;
+    private String event;
+    private String behaviour;
+    private String title;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
     public String getThoughts() {
         return thoughts;
@@ -15,20 +26,21 @@ public class ETE {
     }
 
     public String getEvents() {
-        return events;
+        return event;
     }
 
     public void setEvents(String events) {
-        this.events = events;
+        this.event = events;
     }
 
-    public String getEmotions() {
-        return emotions;
+    public String getBehaviour() {
+        return behaviour;
     }
 
-    public void setEmotions(String emotions) {
-        this.emotions = emotions;
+    public void setBehaviour(String behaviour) {
+        this.behaviour = behaviour;
     }
+
 
 
 }
