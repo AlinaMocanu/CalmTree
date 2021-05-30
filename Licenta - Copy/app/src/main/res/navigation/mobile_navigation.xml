@@ -10,22 +10,24 @@
         android:name="com.example.calmtree.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home">
+
     </fragment>
+    <fragment
+        android:id="@+id/nav_breathe"
+        android:name="com.example.calmtree.ui.breathe.BreatheFragment"
+        android:label="@string/menu_breathe"
+        tools:layout="@layout/fragment_breathe" />
     <fragment
         android:id="@+id/nav_thought"
         android:name="com.example.calmtree.ui.thought.ThoughtFragment"
         android:label="@string/menu_thought"
         tools:layout="@layout/fragment_thought" />
 
-    <fragment
-        android:id="@+id/nav_breathe"
-        android:name="com.example.calmtree.ui.breathe.BreatheFragment"
-        android:label="@string/menu_breathe"
-        tools:layout="@layout/fragment_breathe" />
 
     <fragment
         android:id="@+id/nav_sleep"
         android:name="com.example.calmtree.ui.sleep.SleepFragment"
         android:label="@string/menu_sleep"
         tools:layout="@layout/fragment_sleep" />
+
 </navigation>

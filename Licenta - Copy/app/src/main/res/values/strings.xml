@@ -175,5 +175,7 @@ has a few “hits” to play over and over when a triggering event “pushes the
     </string>
     <string name="title_activity_all_handouts2">AllHandouts2</string>
     <string name="title_activity_all_handouts3">AllHandouts3</string>
+    <string name="start">start</string>
+
 
 </resources>

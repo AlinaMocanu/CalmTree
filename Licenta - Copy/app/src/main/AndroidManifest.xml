@@ -12,7 +12,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.thought.SavedHandout3"></activity>
+        <activity android:name=".ui.thought.SavedHandout3" />
         <activity android:name=".ui.thought.SavedHandout2" />
         <activity android:name=".ui.thought.SavedHandout" />
         <activity
