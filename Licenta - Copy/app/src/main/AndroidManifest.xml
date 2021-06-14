@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.calmtree">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -49,15 +50,18 @@
         <activity
             android:name=".ui.thought.FirstFragment"
             android:label="@string/title_activity_new_handout3"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".ui.thought.First2Fragment"
             android:label="@string/title_activity_new_handout3"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".ui.thought.First3Fragment"
             android:label="@string/title_activity_new_handout3"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="Instantiatable" />
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".SignupActivity" />
         <activity
@@ -70,6 +74,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

@@ -26,8 +26,8 @@
             <TextView
                 android:layout_width="250dp"
                 android:layout_height="40dp"
-                android:layout_marginLeft="80dp"
-                android:text="@string/alex_s_unhelpful_thoughts"
+                android:layout_marginLeft="100dp"
+                android:text="@string/TT"
                 android:textSize="20dp"
                 app:layout_anchorGravity="top|center" />
 

@@ -7,6 +7,7 @@ import android.view.Menu;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.inappmessaging.FirebaseInAppMessaging;
 import com.salesforce.android.chat.core.ChatConfiguration;
 import com.salesforce.android.chat.ui.ChatUI;
 import com.salesforce.android.chat.ui.ChatUIClient;
@@ -34,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
     ChatConfiguration chatConfiguration =
             new ChatConfiguration.Builder(ORG_ID, BUTTON_ID,
                     DEPLOYMENT_ID, LIVE_AGENT_POD)
-                    .build();
+            .build();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
                             public void handleResult (Async<?> operation,
                                                       ChatUIClient chatUIClient) {
 
-                                // Once configured, let’s start a chat session
                                 chatUIClient.startChatSession(MainActivity.this);
                             }
                         });
@@ -87,4 +88,5 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }

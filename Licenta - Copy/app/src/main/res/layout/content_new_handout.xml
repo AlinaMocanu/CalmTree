@@ -10,25 +10,13 @@
 
     <TextView
         android:id="@+id/MelPhobia"
-        android:layout_width="369dp"
-        android:layout_height="322dp"
-        android:text="@string/mel_phobia"
+        android:layout_width="403dp"
+        android:layout_height="99dp"
+        android:text="@string/indication"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/ExplainMelsPhobia"
-        android:layout_width="376dp"
-        android:layout_height="291dp"
-        android:text="@string/explain_mel_s_phobia"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.795" />
 </androidx.constraintlayout.widget.ConstraintLayout>

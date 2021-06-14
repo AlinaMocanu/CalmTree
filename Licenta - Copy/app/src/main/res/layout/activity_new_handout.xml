@@ -16,7 +16,8 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_new_handout" />
+    <include
+        layout="@layout/content_new_handout" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/new_file1"
@@ -29,8 +30,8 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
+        android:layout_width="1346dp"
+        android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         app:layout_anchor="@+id/appBarLayout2"
         app:layout_anchorGravity="center"
@@ -40,9 +41,9 @@
             android:layout_width="250dp"
             android:layout_height="40dp"
             android:layout_marginLeft="100dp"
-            android:text="@string/mel_s_phobia"
-            android:textSize="30dp"
+            android:text="@string/FTB"
             android:textColor="@color/lightPink"
+            android:textSize="15dp"
             app:layout_anchorGravity="top|center" />
     </androidx.appcompat.widget.Toolbar>
 

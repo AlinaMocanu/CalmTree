@@ -33,6 +33,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
+import com.google.firebase.inappmessaging.FirebaseInAppMessaging;
 
 
 public class LoginActivity extends AppCompatActivity {
@@ -53,7 +54,6 @@ public class LoginActivity extends AppCompatActivity {
 
         EditText password = findViewById(R.id.password);
         final Editable pass = password.getText();
-
 
 
         Button signinbtn = findViewById(R.id.login);

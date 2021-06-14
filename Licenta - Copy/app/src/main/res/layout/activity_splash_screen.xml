@@ -8,9 +8,9 @@
     tools:context=".SplashScreenActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="272dp"
-        android:layout_height="280dp"
+        android:id="@+id/logo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

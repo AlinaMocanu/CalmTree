@@ -24,7 +24,7 @@
                 android:layout_width="250dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="80dp"
-                android:text="@string/neils_thoughts"
+                android:text="@string/ETE"
                 android:textSize="20dp"
                 app:layout_anchorGravity="top|center" />
         </androidx.appcompat.widget.Toolbar>

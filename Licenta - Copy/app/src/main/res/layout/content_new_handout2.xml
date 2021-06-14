@@ -9,27 +9,15 @@
 
     <TextView
         android:id="@+id/neilsStory"
-        android:layout_width="378dp"
-        android:layout_height="269dp"
-        android:text="@string/neils_story_of_unemployment"
+        android:layout_width="398dp"
+        android:layout_height="104dp"
+        android:text="@string/explain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.848"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.034"
+        app:layout_constraintVertical_bias="0.536"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/neilsRevelation"
-        android:layout_width="386dp"
-        android:layout_height="279dp"
-        android:text="@string/neils_revelation"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.68"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/neilsStory"
-        app:layout_constraintVertical_bias="0.041"
-        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

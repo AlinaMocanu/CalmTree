@@ -34,6 +34,7 @@ public class BreatheFragment extends Fragment {
    // private BreatheViewModel galleryViewModel;
     private View view;
     private Button start;
+    private Button stop;
     Context context;
     TextView breathe;
 
@@ -50,13 +51,12 @@ public class BreatheFragment extends Fragment {
 
 
         start =  root.findViewById(R.id.start);
+        stop = root.findViewById(R.id.stop);
+        Animation animZoomIn = AnimationUtils.loadAnimation(context.getApplicationContext(), R.anim.zoom_in);
+        Animation animZoomOut = AnimationUtils.loadAnimation(context.getApplicationContext(), R.anim.zoom_out);
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Animation animZoomIn = AnimationUtils.loadAnimation(context.getApplicationContext(), R.anim.zoom_in);
-                Animation animZoomOut = AnimationUtils.loadAnimation(context.getApplicationContext(), R.anim.zoom_out);
                 view.startAnimation(animZoomIn);
                 animZoomIn.setAnimationListener(new Animation.AnimationListener() {
                     @Override
@@ -98,6 +98,14 @@ public class BreatheFragment extends Fragment {
                     }
                 });
 
+            }
+        });
+
+        stop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                       animZoomIn.setAnimationListener(null);
+                       animZoomOut.setAnimationListener(null);
             }
         });
 

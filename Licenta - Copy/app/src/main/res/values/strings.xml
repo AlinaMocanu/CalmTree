@@ -4,6 +4,7 @@
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_out">Log out</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
     <string name="invalid_username">Not a valid username</string>
@@ -42,140 +43,26 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_new_handout2">NewHandoutActivity2</string>
     <string name="title_activity_new_handout3">NewHandoutActivity3</string>
-    <string name="mel_phobia">“What is it, Mommy?” Mel’s daughter asks as she feels her mom’s hand tense around her own.\nThe young girl can sense something’s wrong.\n\n“It’s okay, sweetheart,” Mel replies, trying to sound casual. “Let’s just cross the street.”\n\nWhat she doesn’t tell her four-year-old daughter is that she desperately wants to avoid the dog she spotted farther down the sidewalk. Ever since she was chased by a big dog that got out of its yard, Mel has been terrified that dogs will attack her. Although she wasn’t hurt, she’s certain she would have been if the owner hadn’t called off his dog. Now, when she sees a dog, her heart pounds, she breaks into a sweat, and she avoids them if possible. </string>
-    <string name="explain_mel_s_phobia">All the elements of a CBT framework are here. First, Mel believes that dogs
-are extremely dangerous.\nSecond, she avoids dogs. By avoiding them she gets some relief from her fear.
-In some sense, her avoidance is working, at least in the short term. Unfortunately,
-it also makes her more likely to run from dogs in the future.
-By avoiding dogs, Mel never gets to learn what would actually happen if she
-approached one. Therefore, her avoidance behavior reinforces her belief that
-dogs are dangerous.\nTo complete the loop, her fear affects her behavior, compelling her to avoid
-dogs. The fear she feels also strengthens her belief that dogs are dangerous—
-“Why else would I be so afraid of them?”</string>
-    <string name="mel_s_phobia">Mel\'s Phobia</string>
-    <string name="neils_story_of_unemployment">From the moment Neil was fired and told to collect his things, he’d done everything right: He’d attended the outplacement service his firm paid for, he’d busied himself
-with networking and job applications—he’d made his employment search a full-time job. He was determined to treat being fired as an opportunity to find something better.
-Still, nobody hired him, even though several interviews had gone well. As his unemployment dragged on, Neil’s enthusiasm began to flag:"Why would anyone hire me? I see all these recent college grads, and they’re my daughter’s age, and we’re interviewing for the same jobs. What hope does a gray-haired guy with bifocals have against these kids?”</string>
-    <string name="neils_revelation">As Neil got to know his thoughts better, he recognized a familiar “cast of characters.” Most of his disturbing thoughts were about his “hopeless” future, which
-he believed was a result of his old age and “obsolescence,” which he took to
-mean he wouldn’t be able to provide for his family, which he thought made him
-a worthless human being.\nAs you record your own thoughts and emotions, chances
-are you’ll begin to notice recurring themes. It’s like our mind is a jukebox and only
-has a few “hits” to play over and over when a triggering event “pushes the button.”</string>
-    <string name="neils_thoughts">Neil\'s Destructive Thoughts</string>
-    <string name="alexthoughts"> Afer a talk Alex once gave as part of a job
-        interview, she was certain her audience had been bored and severely underwhelmed. “I blew it,” she thought as she walked home. When she got home, there was an
-        e-mail in her inbox offering her the job. We all make errors in our thinking. Fortunately we can think about our own
-        thinking and recognize when our thoughts do and don’t make sense. \n Consider all the ways thinking is helpful to us. We can plan for the future, consider our past actions, evaluate others’ motives, savor our favorite memories, and so forth. When our thoughts are a good enough fit with reality, they serve us well. Some of the thoughts you record may be accurate, and therefore helpful. Our minds can also create thoughts that do not accurately reflect reality:
-        \n • We make predictions that are wrong.
-        \n • We misunderstand someone’s intent.
-        \n • We misread a situation</string>
-
-    <string name="alexrevelation">Notice that the goal of the following exercise is not  to “think happy thoughts” to neutralize negative ones. The goal is to take a hard, clear-eyed look at your situation and your thinking about it and to make an accurate judgment.</string>
-    <string name="alex_s_unhelpful_thoughts">Alex\'s Unhelpful Thoughts</string>
-    <string name="indication">Think of a recent situation where you felt a strong emotion, perhaps anxiety or sadness write down the feelings you had, the thoughts you can remember having, and what you did.</string>
+    <string name="FTB">How your thoughts influence emotions and behaviour</string>
+    <string name="TT">Thought Analysis</string>
+    <string name="ETE">How you perceive events</string>
+    <string name="indication">Try to remember the last time you felt a strong emotion. What were the thoughts you had and how that affected your actions?</string>
     <string name="what_i_felt">What I felt:</string>
     <string name="what_i_thought">What I thought:</string>
     <string name="what_i_did">What I did:</string>
-    <string name="explain">Think of a time when something happened in your own life that led you to feeling down or depressed. What thoughts went through your mind? Use the diagram below to illustrate this example:</string>
-    <string name="choose_thought">Let’s work through your own recorded thoughts. First, choose the event you found most upsetting. Using the form on the following page, record the evidence that supports your thought. Is there any evidence against your thought, suggesting it might not tell the whole story?</string>
+    <string name="explain">Think of an event that made you feel sad, anxious or depressed. What were your thoughts and what did you feel?</string>
+    <string name="choose_thought">Let\'s take a clear look at your thoughts. Choose one of your most consuming thoughts. What evidence do you have for it? Is there anything you\'re missing out?</string>
     <string name="evidence_for_my_thought">Evidence for my thought:</string>
     <string name="evidence_against_my_thoguht">Evidence against my thought:</string>
     <string name="question1">Based on the evidence that you reviewed, how accurate is the thought you had?</string>
     <string name="see_all_handouts">See all handouts</string>
     <string name="title_activity_all_handouts">AllHandouts</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
-
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
     <string name="title_activity_all_handouts2">AllHandouts2</string>
     <string name="title_activity_all_handouts3">AllHandouts3</string>
     <string name="start">start</string>
+    <string name="thought_journaling">Thought Journaling</string>
+    <string name="breathing_exercises">Breathing Exercises</string>
+    <string name="talk_to_calmtree">Talk to CalmTree</string>
 
 
 </resources>

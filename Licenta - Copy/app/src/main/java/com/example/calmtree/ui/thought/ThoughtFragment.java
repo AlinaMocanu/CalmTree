@@ -17,6 +17,7 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.calmtree.R;
 import com.example.calmtree.ui.thought.NewHandoutActivity;
+import com.google.firebase.inappmessaging.FirebaseInAppMessaging;
 
 
 public class ThoughtFragment extends Fragment {
@@ -61,6 +62,7 @@ public class ThoughtFragment extends Fragment {
                 // finish();
             }
         });
+        FirebaseInAppMessaging.getInstance().triggerEvent("main_activity");
 
         return root;
     }
